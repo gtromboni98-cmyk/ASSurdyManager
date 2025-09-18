@@ -25,6 +25,7 @@ MoneyManager/
 ## Setup
 
 1. Installa le dipendenze:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,6 +43,7 @@ python src/main.py
 ```
 
 Il programma:
+
 1. Carica i dati da Excel e JSON
 2. Aggiorna il file Excel con i nuovi dati
 3. Invia alert WhatsApp per i pagamenti non effettuati
@@ -62,6 +64,7 @@ Il programma:
 ```
 
 ## Note
+
 - I numeri di telefono devono essere nel formato internazionale (es. "+39" per l'Italia)
 - WhatsApp Web deve essere già configurato sul browser
 - Il primo utilizzo richiederà la scansione del QR code di WhatsApp
